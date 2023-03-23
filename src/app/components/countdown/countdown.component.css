@@ -4,10 +4,16 @@
   align-items: center;
   justify-content: center;
   height: 95vh;
+  background-image: url("../../../assets/images/bg-stars.svg");
+  background-repeat: no-repeat;
+  /* background-position: bottom; */
+  background-color: hsl(234, 17%, 12%)
 }
 
 .title{
+  font-size: 2em;
   text-align: center;
+  color: hsl(345, 95%, 68%);
 }
 
 .title__container{
@@ -25,10 +31,14 @@
 
 .box{
   background-color: black;
-  color: red;
+  color: hsl(345, 95%, 68%);
   width: 6em;
   height: 6em;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box_number{
+  font-size: 4em;
 }
