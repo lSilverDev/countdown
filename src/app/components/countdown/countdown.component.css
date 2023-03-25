@@ -29,6 +29,12 @@
   margin: 2em;
 }
 
+.counter__box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .box{
   background-color: black;
   color: hsl(345, 95%, 68%);
