@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  /* screen sizes */
+  --screen-mobile: 375px;
+  --screen-desktop: 1440px;
+
+  /* cores */
+
+  /* primarias */
+  --grayisg-blue: hsl(237, 18%, 59%);
+  --soft-red: hsl(345, 95%, 68%);
+  --blue: hsl(246, 80%, 60%);
+
+
+  /* Neutral */
+  --white: white;
+  --dark-desaturated-blue: hsl(236, 21%, 26%);
+  --dark-blue: hsl(235, 16%, 14%);
+  --dark-blue-mostyBlack-blue: hsl(234, 17%, 12%);
+
+  /* Body Copy */
+  --font-size-body: 14px;
+
+  /* Font */
+
+  --font-family-hat: 'Red Hat Text', sans-serif;
+  --font-weight: 700;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
