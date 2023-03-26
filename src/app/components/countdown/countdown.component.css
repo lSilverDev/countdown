@@ -36,7 +36,7 @@
 }
 
 .box{
-  background-color: black;
+  background-color: hsl(234, 17%, 12%);
   color: hsl(345, 95%, 68%);
   width: 6em;
   height: 6em;
@@ -63,4 +63,5 @@
 
 .box_number{
   font-size: 4em;
+  position: absolute;
 }
