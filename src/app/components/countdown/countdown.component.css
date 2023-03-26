@@ -65,3 +65,11 @@
   font-size: 4em;
   position: absolute;
 }
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  width: 100%;
+  background-image: url("../../../assets/images/pattern-hills.svg");
+}
