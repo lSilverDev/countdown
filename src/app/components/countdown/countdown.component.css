@@ -66,6 +66,44 @@
   position: absolute;
 }
 
+.listContact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  bottom: 2em;
+  height: 5vh;
+  width: 100%;
+  z-index: 10;
+  justify-content: center;
+}
+
+.btn-contact-face{
+  background-image: url("../../../assets/images/icon-facebook.svg");
+  background-repeat: no-repeat;
+  width: 5%;
+  height: 100%;
+  margin: 1em;
+}
+
+.btn-contact-inst{
+  background-image: url("../../../assets/images/icon-instagram.svg");
+  background-repeat: no-repeat;
+  width: 5%;
+  height: 100%;
+  margin: 1em;
+}
+
+.btn-contact-pin{
+  background-image: url("../../../assets/images/icon-pinterest.svg");
+  background-repeat: no-repeat;
+  width: 5%;
+  height: 100%;
+  margin: 1em;
+}
+
+.btn:hover{}
+
 .footer{
   position: absolute;
   bottom: 0;
@@ -73,3 +111,5 @@
   width: 100%;
   background-image: url("../../../assets/images/pattern-hills.svg");
 }
+
+
