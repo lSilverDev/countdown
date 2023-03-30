@@ -78,6 +78,11 @@
   justify-content: center;
 }
 
+.title-box{
+  color: var(--grayisg-blue);
+  font-size: var(--font-size-body);
+}
+
 .btn-contact-face{
   background-image: url("../../../assets/images/icon-facebook.svg");
   background-repeat: no-repeat;
