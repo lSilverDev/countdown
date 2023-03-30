@@ -6,14 +6,13 @@
   height: 95vh;
   background-image: url("../../../assets/images/bg-stars.svg");
   background-repeat: no-repeat;
-  /* background-position: bottom; */
-  background-color: hsl(234, 17%, 12%)
+  background-color: var(--dark-blue-mostyBlack-blue);
 }
 
 .title{
   font-size: 2em;
   text-align: center;
-  color: hsl(345, 95%, 68%);
+  color: var(--soft-red);
 }
 
 .title__container{
@@ -36,8 +35,8 @@
 }
 
 .box{
-  background-color: hsl(234, 17%, 12%);
-  color: hsl(345, 95%, 68%);
+  background-color: var(--dark-blue-mostyBlack-blue);;
+  color: var(--soft-red);
   width: 6em;
   height: 6em;
   display: flex;
@@ -48,14 +47,14 @@
 }
 
 .box-up{
-  background-color: white;
+  background-color: var(--dark-blue);
   width: 100%;
   height: 50%;
   border-radius: 0 0 10px 10px;
 }
 
 .box-down{
-  background-color: white;
+  background-color: var(--dark-desaturated-blue);
   width: 100%;
   height: 50%;
   border-radius: 10px 10px 0 0;
